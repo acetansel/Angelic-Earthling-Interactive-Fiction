@@ -1,34 +1,4 @@
-def determining(key):
-	if len(key) == 0:
-		return 0
-	level = 1
-	minimum = 0
-	for point in range (0,len(key)-1):
-		minimum += 2 ** level
-		level += 1
-	shift = 0
-	index = 0
-	for value in key:
-		if value == "0":
-			shift += 2 ** (len(key) - 1 - index)
-		index += 1
-	shift += 1
-	return minimum + shift
-	
-def rightPrinting(block):
-	scroll = block.split("*n*")
-	for line in scroll:
-		print(line)
-
-def binaryQuestion(answer):
-	while True:
-		if answer[0] == "Y":
-			return True
-		elif answer[0] == "N":
-			return False
-		else:
-			answer = input("Y/N?...").upper()
-
+import working
 input("Return to start...")
 print()
 print("Welcome to the interactive fiction featuring a myriad web of what-ifs applied to Otitochukwu Eberendu's fantasy journal, Angelic Earthling.\nTo answer affirmatively to any question, type and submit any word that begins with Y and any word that begins with N to negatively answer. Now, we shall begin with a general synopsis:")
@@ -48,10 +18,10 @@ try:
 
 	while True:
 		try:
-			rightPrinting(draft[determining(coordinates)])
+			working.rightPrinting(draft[working.determining(coordinates)])
 			answer = input().upper()
 			answer += "answer"
-			if binaryQuestion(answer):
+			if working.binaryQuestion(answer):
 				coordinates += "1"
 			else:
 				coordinates += "0"
