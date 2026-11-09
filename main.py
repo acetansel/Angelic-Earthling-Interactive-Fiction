@@ -5,13 +5,13 @@ def determining(key):
 	level = 1
 	minimum = 0
 	for point in range (0,len(key)-1):
-		minimum += math.pow(2,level)
+		minimum += 2 ** level
 		level += 1
 	shift = 0
 	index = 0
 	for value in key:
 		if value == "0":
-			shift += math.pow(2,len(key) - 1 - index)
+			shift += 2 ** (len(key) - 1 - index)
 		index += 1
 	shift += 1
 	return minimum + shift
@@ -44,7 +44,7 @@ try:
 
 	while True:
 		try:
-			rightPrinting(draft[int(determining(coordinates))])
+			rightPrinting(draft[determining(coordinates)])
 			answer = input().upper()
 			answer += "answer"
 			if binaryQuestion(answer):
