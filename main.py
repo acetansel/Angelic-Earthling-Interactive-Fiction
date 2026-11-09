@@ -1,4 +1,3 @@
-import math
 def determining(key):
 	if len(key) == 0:
 		return 0
