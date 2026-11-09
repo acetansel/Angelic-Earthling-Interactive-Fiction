@@ -27,7 +27,7 @@ def binaryQuestion(answer):
 		elif answer[0] == "N":
 			return False
 		else:
-			answer = input("Y/N?").upper()
+			answer = input("Y/N?...").upper()
 
 input("Return to start...")
 print("Welcome to the interactive fiction featuring a myriad web of what-ifs applied to Otitochukwu Eberendu's fantasy journal, Angelic Earthling.\nTo answer affirmatively to any question, type and submit any word that begins with Y and any word that begins with N to negatively answer. Now, we shall begin with a general synopsis:")
