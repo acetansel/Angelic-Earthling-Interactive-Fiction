@@ -19,6 +19,7 @@ def rightPrinting(block):
 	scroll = block.split("*n*")
 	for line in scroll:
 		print(line)
+		print("~" * 60)
 
 def binaryQuestion(answer):
 	while True:
