@@ -14,12 +14,15 @@ def determining(key):
 		index += 1
 	shift += 1
 	return minimum + shift
-	
+
+def lineuot():
+	print("~" * 60)
+
 def rightPrinting(block):
 	scroll = block.split("*n*")
 	for line in scroll:
 		print(line)
-		print("~" * 60)
+		lineout()
 
 def binaryQuestion(answer):
 	while True:
