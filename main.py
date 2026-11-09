@@ -1,12 +1,12 @@
 import working
 input("Return to start...")
-print("~" * 60)
+working.lineout
 print("Welcome to the interactive fiction with in an every-expanding tree of binary branches")
-print("~" * 60)
+working.lineout
 print("To answer affirmatively to any question, type and submit any word that begins with Y and any word that begins with N to negatively answer.")
-print("~" * 60)
+working.lineout
 input("Return to continue...")
-print("~" * 60)
+working.lineout
 
 try:
 	f = open("storyStrings.txt")
@@ -18,6 +18,7 @@ try:
 		try:
 			working.rightPrinting(draft[working.determining(coordinates)])
 			answer = input().upper()
+			working.lineout
 			answer += "answer"
 			if working.binaryQuestion(answer):
 				coordinates += "1"
