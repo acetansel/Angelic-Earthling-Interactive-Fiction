@@ -1,14 +1,12 @@
 import working
 input("Return to start...")
-print()
-print("Welcome to the interactive fiction featuring a myriad web of what-ifs applied to Otitochukwu Eberendu's fantasy journal, Angelic Earthling.\nTo answer affirmatively to any question, type and submit any word that begins with Y and any word that begins with N to negatively answer. Now, we shall begin with a general synopsis:")
-print()
+print("~" * 60)
+print("Welcome to the interactive fiction with in an every-expanding tree of binary branches")
+print("~" * 60)
+print("To answer affirmatively to any question, type and submit any word that begins with Y and any word that begins with N to negatively answer.")
+print("~" * 60)
 input("Return to continue...")
-print()
-print("A story of all of humanity? No, this is a story of one blessed people graced with the spirit and power of a fallen angel and a two-blooded prince onto the land of Pacifia from since before the Great Flood. With it, their will to live drives to an unending end.")
-print()
-input("Return to continue...")
-print()
+print("~" * 60)
 
 try:
 	f = open("storyStrings.txt")
