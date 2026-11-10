@@ -15,7 +15,7 @@ def determining(key):
 	shift += 1
 	return minimum + shift
 
-def lineuot():
+def lineout():
 	print("~" * 60)
 
 def rightPrinting(block):
