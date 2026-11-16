@@ -10,13 +10,13 @@ working.lineout()
 
 try:
 	f = open("story.txt")
-	draft = f.readlines()
+	novel = f.readlines()
 	f.close()
 	coordinates = ""
 
 	while True:
 		try:
-			working.rightPrinting(draft[working.determining(coordinates)])
+			working.rightPrinting(novel[working.determining(coordinates)])
 			answer = input().upper()
 			working.lineout()
 			answer += "answer"
