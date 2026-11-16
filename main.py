@@ -9,7 +9,7 @@ input("Return to continue...")
 working.lineout()
 
 try:
-	f = open("storyStrings.txt")
+	f = open("story.txt")
 	draft = f.readlines()
 	f.close()
 	coordinates = ""
@@ -29,6 +29,6 @@ try:
 			coordinates = ""
 
 except FileNotFoundError:
-	print("Error retrieving story data...Make sure the storyStrings.txt file is present and retrievable.")
+	print("Error retrieving story data...Make sure the story.txt file is present and retrievable.")
 	input("Return to close...")
 
