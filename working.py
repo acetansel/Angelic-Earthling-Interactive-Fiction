@@ -9,7 +9,7 @@ def determining(key):
 	shift = 0
 	index = 0
 	for value in key:
-		if value == "0":
+		if value == "1":
 			shift += 2 ** (len(key) - 1 - index)
 		index += 1
 	shift += 1
