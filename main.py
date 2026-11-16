@@ -19,7 +19,7 @@ try:
 			working.rightPrinting(novel[working.determining(coordinates)])
 			answer = input().upper()
 			working.lineout()
-			answer += "answer"
+			answer += "buffer"
 			if working.binaryQuestion(answer):
 				coordinates += "1"
 			else:
