@@ -22,7 +22,6 @@ def rightPrinting(block):
 	scroll = block.split("*n*")
 	for line in scroll:
 		print(line)
-		lineout()
 
 def binaryQuestion(answer):
 	while True:
