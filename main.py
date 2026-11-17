@@ -43,7 +43,12 @@ def main():
 	coordinates = ""
 	while True:
 		try:
-			rightPrinting(novel[determining(coordinates)])
+			paragraph = novel[determining(coordinates)]
+			if paragraph == "...":
+				if len(input("You have reached the end of this branch...The story shall be continued.\nReturn something to start over and return nothing to close.")) == 0:
+					break
+				coordinates = ""
+			rightPrinting(paragraph)
 			answer = input().upper() + "X"
 			lineout()
 			if binaryQuestion(answer):
