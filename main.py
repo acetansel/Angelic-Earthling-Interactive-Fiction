@@ -32,35 +32,38 @@ def binaryQuestion(answer):
 			return False
 		else:
 			answer = input("Y/N?...").upper()
-			
-input("Return to start...")
-lineout()
-print("Welcome to the interactive fiction with in an every-expanding tree of binary branches")
-lineout()
-print("To answer affirmatively to any question, type and submit any word that begins with Y and any word that begins with N to negatively answer.")
-lineout()
-input("Return to continue...")
-lineout()
+def main():			
+	input("Return to start...")
+	lineout()
+	print("To answer affirmatively to any question, return any word that begins with Y.")
+	print("To answer negatively to any question, return any word that begins with N.")
+	lineout()
+	input("Return to continue...")
+	lineout()
+	
+	try:
+		f = open("story.txt")
+		movel = f.readlines()
+		f.close()
+		coordinates = ""
+	
+		while True:
+			try:
+				rightPrinting(novel[determining(coordinates)])
+				answer = input().upper() + "X"
+				lineout()
+				if binaryQuestion(answer):
+					coordinates += "1"
+				else:
+					coordinates += "0"
+			except IndexError:
+				if len(input("You have reached the end of this branch...The story shall be continued.\nReturn something to start over and return nothing to close.")) == 0:
+					break
+				coordinates = ""
+	
+	except FileNotFoundError:
+		input("Error retrieving story data...Make sure the story.txt file is present and retrievable.\nReturn to close...")
 
-try:
-	novel = open("story.txt", "r")
-	coordinates = ""
-
-	while True:
-		try:
-			rightPrinting(novel[determining(coordinates)])
-			answer = input().upper()
-			lineout()
-			answer += "buffer"
-			if binaryQuestion(answer):
-				coordinates += "1"
-			else:
-				coordinates += "0"
-		except IndexError:
-			input("To be continued...Return to start over")
-			coordinates = ""
-
-except FileNotFoundError:
-	print("Error retrieving story data...Make sure the story.txt file is present and retrievable.")
-	input("Return to close...")
-
+main()
+		
+	
