@@ -32,6 +32,7 @@ def binaryQuestion(answer):
 			return False
 		else:
 			answer = input("Y/N?...").upper()
+			
 input("Return to start...")
 lineout()
 print("Welcome to the interactive fiction with in an every-expanding tree of binary branches")
