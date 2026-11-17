@@ -42,7 +42,7 @@ def main():
 	lineout()
 	
 	try:
-		f = open("story.txt")
+		f = open("story.txt", "r", encoding="utf-8-sig")
 		novel = f.readlines()
 		f.close()
 		coordinates = ""
