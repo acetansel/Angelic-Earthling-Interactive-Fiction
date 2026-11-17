@@ -1,8 +1,13 @@
 ### *Interactive Fiction*
 
 This is the interactive fiction interface of the angelic fantasy narrative—Angelic Earthling. It is very simple; we begin with the same introduction that the main work introduces and get prompted with binary yes and no; do it and don’t it questions that diverge and compound into alternative storylines to the canonical one present in the working book.
+
 The behind-the-scene code uses coordinates to locate where in the story one is at any given time; coordinates given by you—the user’s—answers to the questions incrementally. Therefore, one can use these binary coordinates to artificially reach any pathway they have a particular interest in…such as the canonical timeline.
-That canonical timeline is going to be ahead of the rest of the divergents so that it may keep up with the canonical writing; the program will cease once the end of a branch is reached but this branch will extend far beyond so if you want to just use this to get a very primitive rundown of the (to date) canon of Angelic Earthling, run these coordinates: 101101
+
+That canonical timeline is going to be ahead of the rest of the divergents so that it may keep up with the canonical writing; the program will cease once the end of a branch is reached but this branch will extend far beyond so if you want to just use this to get a very primitive rundown of the (to date) canon of Angelic Earthling...
+
+Run 101101
+
 That is, answer “yes : 1” then “ no : 0” then “yes : 1” and so on.
 
 
