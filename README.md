@@ -6,6 +6,7 @@ That canonical timeline is going to be ahead of the rest of the divergents so th
 That is, answer “yes : 1” then “ no : 0” then “yes : 1” and so on.
 
 
+
 ###### Beyond just the administrative information, this is the universe itself:
 
 
@@ -36,5 +37,5 @@ The Pacifics, other peoples and some of the Nomu were commissioned as low-caste 
 
 ## *Saga of North and South*
 
-The Pacific, Atlantic and Indianic epics make the founding mythology of the Idemilians devised long ago to be an attempted defence against conquering peoples whose gods and mythologies remained stronger than their own, leaving the people to be scattered in strange lands. Idemilians Rosé of the south and Rougé in the north are graced to participate in other outcast projects in which the power of their people’s mythos and spirit will be consolidated for the establishment of a free nation.
+The Pacific, Atlantic and Indianic epics make the founding mythology of the Idemilians devised long ago to be an attempted defence against conquering peoples whose gods and mythologies remained stronger than their own, leaving the people to be scattered in strange lands. Idemilians Rosé of the south and Rougé in the north are graced to participate in other outcast projects in which the mythos and spirit of the people shall consolidate into a free nation.
 
