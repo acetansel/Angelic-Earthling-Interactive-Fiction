@@ -43,7 +43,7 @@ def main():
 	
 	try:
 		f = open("story.txt")
-		movel = f.readlines()
+		novel = f.readlines()
 		f.close()
 		coordinates = ""
 	
