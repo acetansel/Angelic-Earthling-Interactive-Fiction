@@ -8,7 +8,7 @@ That canonical timeline is going to be ahead of the rest of the divergents so th
 
 Run 101101
 
-That is, answer “yes : 1” then “ no : 0” then “yes : 1” and so on.
+That is, answer “yes : 1” then “ no : 0” then “yes : 1” and so on. You may click on "main.py" and download only this file to run the interaction. The rest of the repository are developer tools.
 
 
 
@@ -20,19 +20,13 @@ That is, answer “yes : 1” then “ no : 0” then “yes : 1” and so on.
 
 A story that is both mythological and literal; that is, the narrative that beats the heart of the people of Pacifia and spirits their power against the warring factions of the world in angelic form.
 
-
-
 ## *Saga of Pacifia*
 
 Twin angels Rosus and Rosibus are exiled from the unseen world into the seen world where their forceful entry into the earth wrings substantive change with them which causes a disagreement so fierce that they kill each other. They also wrought a substantive change onto the people of Pacifia forcing them to take up a new vocational tradition; one which is too high-octane for longstanding survival. In response, Rotimi and Rumuala swear and endeavour to change the tradition by changing their people for the better.
 
-
-
 ## *Saga of Atlantia*
 
 The Aquatic Nomu produced by the Atlantic people cause havoc in many lands including Pacifia. Rotimi and Rumuala face another temporary destruction in their own destroying of the mindless creatures of water flesh. During which there are many power struggles for the remnant of the Nomu and country of the Pacifics from which they have been displaced. After which Rigata and Rumiri seek vengeance against the nation by sinking their combat resources…and the rest of them.
-
-
 
 ## *Saga of Indiana*
 
