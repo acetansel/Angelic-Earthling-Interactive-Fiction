@@ -52,3 +52,9 @@ Empowered greatly with a great bastion of gods to strike and destroy other basti
 
 ## *Saga of Curses*
 
+The Idemilians soar high with their barbaric spirit which is soon under threat to the paralysis of slave morality: the condemnation of the dark glories of determinism, inequality, hierarchy, segragation and death. Such would only threaten the Idemilians because a lot of them are beginning to fall for this spell allowing their mythology and bastion of gods to be cracked by this new bastion of winglessness.
+
+## *Saga of Winging*
+
+Slave morality let the world dive into chaos by weakening first the Idemilian, letting them become ravaged by foreigners and ruled by weak tyrants, while the castles of the world are brought forth once again which continue to be a soft oppression in place of the liberating barbaric spirit. The only hope is the restoration of that winged bastion...*of angels*.
+
