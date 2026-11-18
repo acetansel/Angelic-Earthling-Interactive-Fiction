@@ -38,16 +38,17 @@ The Aquatic Nomu produced by the Atlantic people cause havoc in many lands inclu
 
 The Pacifics, other peoples and some of the Nomu were commissioned as low-caste labourers by the Indianics to rebuild their infrastructures of beauty of power—the animate Statues and the Amusement Park—which were damaged by the insurgence of the Nomu. However complex and fortified the Park is and how strong and recurring the remaining Nomu and the Statues are, Ralum and Rikpughi will not backdown from either levelling it or taking it over—whichever one best saves their nation.
 
-
-
 ## *Saga of North and South*
 
 The Pacific, Atlantic and Indianic epics make the founding mythology of the Idemilians devised long ago to be an attempted defence against conquering peoples whose gods and mythologies remained stronger than their own, leaving the people to be scattered in strange lands. Idemilians Rosé of the south and Rougé in the north are graced to participate in other outcast projects in which the mythos and spirit of the people shall consolidate into a free nation.
 
-## *Saga of the Hard Castle*
+## *Saga of Castle*
 
 The entire world had been primed into a painful absolutism because of how great the Olympians were. There were futile attempts to image them. The Idemilians were one of these futilities; holding on to castles not local to them and, therefore, doing far too much damage than enriching. Therefore, they must clear this soft oppression so they can be liberated to achieve their full potential.
 
 ## *Saga of Bastions*
 
-Empowered greatly with a great bastion of gods to strike and destroy other bastions of gods, the Idemilians draw an indomitable degree of power out of one another through rivalry and bring it together to dominate the world around them. Provoked by nothing but the will to power and glory
+Empowered greatly with a great bastion of gods to strike and destroy other bastions of gods, the Idemilians draw an indomitable degree of power out of one another through rivalry and bring it together to dominate the world around them. Provoked by nothing but the will to power and glory.
+
+## *Saga of Curses*
+
