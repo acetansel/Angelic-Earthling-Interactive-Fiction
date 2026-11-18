@@ -56,5 +56,5 @@ The Idemilians soar high with their barbaric spirit which is soon under threat t
 
 ## *Saga of Winging*
 
-Slave morality let the world dive into chaos by weakening first the Idemilian, letting them become ravaged by foreigners and ruled by weak tyrants, while the castles of the world are brought forth once again which continue to be a soft oppression in place of the liberating barbaric spirit. The only hope is the restoration of that winged bastion...*of angels*.
+Slave morality let the world dive into chaos by weakening first the Idemilians, letting them become ravaged by foreigners and ruled by weak tyrants, while the castles of the world are brought forth once again which continue to be a soft oppression in place of the liberating barbaric spirit. The only hope is the restoration of that winged bastion...*of angels*.
 
