@@ -20,10 +20,10 @@ def lineout():
 
 def rightPrinting(block):
 	scroll = block.split("*n*")
-	for line in scroll:
+	for line in scroll[:-2]:
 		print(line)
-		if scroll[-1] == line:
-			lineout()
+	print(scroll[-1])
+	lineout()
 
 def binaryQuestion(answer):
 	while True:
