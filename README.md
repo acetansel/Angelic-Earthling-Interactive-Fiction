@@ -1,4 +1,10 @@
-### *Interactive Fiction*
+# Welcome to the Interaction of the Angelic Earthling Fantasy Series
+
+This is a story that the developer has been putting floods of energy and effort into over years.
+
+And which other better please to give it a public and online face than a nerdy and esoteric Version Control resource!
+
+## *Interactive Fiction*
 
 This is the interactive fiction interface of the angelic fantasy narrative—Angelic Earthling. It is very simple; we begin with the same introduction that the main work introduces and get prompted with binary yes and no; do it and don’t it questions that diverge and compound into alternative storylines to the canonical one present in the working book.
 
@@ -10,7 +16,18 @@ Run 101101
 
 That is, answer “yes : 1” then “ no : 0” then “yes : 1” and so on. You may click on "main.py" and download only this file to run the interaction. The rest of the repository are developer tools.
 
+## Execution and Data
 
+To run the fiction, you only need to download and run the story.py executable on a machine with a Python interpreter.
+
+Should the system not have a Python interpreter:
+
+* Shortcut Windows Key + R to open Windows Run
+* Open "powershell" on Windows Run
+* Enter "python" on the console
+* Download the popped up Python manager from the Microsoft Store
+* Return to the file and run as normal
+* All data is self-contained so none of the other files in this package are needed
 
 ###### Beyond just the administrative information, this is the universe itself:
 
