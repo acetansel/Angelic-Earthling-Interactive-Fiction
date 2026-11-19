@@ -8,7 +8,7 @@ But you don't need to be an esoteric nerd to run the interactive fiction. You wi
 
 Many of the branches will converge into the same storyline later down the road because there is always more than one way to achieve a certain outcome. However, there _will_ be divergents which remain distinct from other alternatives throughout the entire story.
 
-The interaction is not going to let you know when such a consequential crossroads has been reached; discern for yourselves when and where they are.
+The interaction is not going to let you know when such consequential crossroads has been reached; discern for yourselves when and where they are.
 
 The interaction uses binary coordinates to locate what story and where in it we are throughout the entire operation. Starting from the introductory passage, every 0 is an answered no and every 1 is an answered yes. Therefore, binary codes can be used to find specific storylines of interest like those major divergents or the canonical timeline.
 
