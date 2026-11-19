@@ -4,17 +4,15 @@ This is a story that the developer has been putting floods of energy and effort 
 
 And which other better please to give it a public and online face than a nerdy and esoteric Version Control resource!
 
-## *Interactive Fiction*
+But you don't need to be an esoteric nerd to run the interactive fiction. You will be given the passage which introduces the story after which there will be an onslaught of yes-and-no questions to dive into a large world of possibilities.
 
-This is the interactive fiction interface of the angelic fantasy narrative—Angelic Earthling. It is very simple; we begin with the same introduction that the main work introduces and get prompted with binary yes and no; do it and don’t it questions that diverge and compound into alternative storylines to the canonical one present in the working book.
+Many of the branches will converge into the same storyline later down the road because there is always more than one way to achieve a certain outcome. However, there _will_ be divergents which remain distinct from other alternatives throughout the entire story.
 
-The behind-the-scene code uses coordinates to locate where in the story one is at any given time; coordinates given by you—the user’s—answers to the questions incrementally. Therefore, one can use these binary coordinates to artificially reach any pathway they have a particular interest in…such as the canonical timeline.
+The interaction is not going to let you know when such a consequential crossroads has been reached; discern for yourselves when and where they are.
 
-That canonical timeline is going to be ahead of the rest of the divergents so that it may keep up with the canonical writing; the program will cease once the end of a branch is reached but this branch will extend far beyond so if you want to just use this to get a very primitive rundown of the (to date) canon of Angelic Earthling...
+The interaction uses binary coordinates to locate what story and where in it we are throughout the entire operation. Starting from the introductory passage, every 0 is an answered no and every 1 is an answered yes. Therefore, binary codes can be used to find specific storylines of interest like those major divergents or the canonical timeline.
 
-Run 101101
-
-That is, answer “yes : 1” then “ no : 0” then “yes : 1” and so on. You may click on "main.py" and download only this file to run the interaction. The rest of the repository are developer tools.
+101101
 
 ## Execution and Data
 
@@ -27,11 +25,12 @@ Should the system not have a Python interpreter:
 * Enter "python" on the console
 * Download the popped up Python manager from the Microsoft Store
 * Return to the file and run as normal
-* All data is self-contained so none of the other files in this package are needed
 
-###### Beyond just the administrative information, this is the universe itself:
+The Python executable is data independent i.e. no other file is needed to run the interaction.
 
+## In-Universe
 
+The interactive fiction is going to jump right into the story. If you want a large synopsis of what is going on and what kind of stories to expect down the line, proceed...
 
 # *Angelic Earthling*
 
