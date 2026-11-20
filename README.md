@@ -6,7 +6,7 @@ And which other better please to give it a public and online face than a nerdy a
 
 But you don't need to be an esoteric nerd to run the interactive fiction. You will be given the passage which introduces the story after which there will be an onslaught of yes-and-no questions to dive into a large world of possibilities.
 
-Many of the branches will converge into the same storyline later down the road because there is always more than one way to achieve a certain outcome. However, there _will_ be divergents which remain distinct from other alternatives throughout the entire story.
+Many of the branches will converge into the same storyline later down the road because there is always more than one way to achieve a certain outcome. However, there *will* be divergents which remain distinct from other alternatives throughout the entire story.
 
 The interaction is not going to let you know when such consequential crossroads has been reached; discern for yourselves when and where they are.
 
@@ -16,7 +16,7 @@ The interaction uses binary coordinates to locate what story and where in it we 
 
 ## Execution and Data
 
-To run the fiction, you only need to download and run the story.py executable on a machine with a Python interpreter.
+To run the fiction, you only need to [download and run the story.py program here](https://studentsloyola-my.sharepoint.com/:u:/r/personal/oeberendu_loyola_edu/Documents/Documents/GitHub/Angelic-Earthling-Interactive-Fiction/story.py?d=w962ec554d0b4458c86d8b97e9720e9a5&csf=1&web=1&e=4SlLvl).
 
 Should the system not have a Python interpreter:
 
