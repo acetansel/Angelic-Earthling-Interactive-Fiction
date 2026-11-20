@@ -16,11 +16,7 @@ The interaction uses binary coordinates to locate what story and where in it we 
 
 ## Execution and Data
 
-<<<<<<< HEAD
 To run the fiction, you only need to [download and run the story.py program here](https://studentsloyola-my.sharepoint.com/:u:/r/personal/oeberendu_loyola_edu/Documents/Documents/GitHub/Angelic-Earthling-Interactive-Fiction/story.py?d=w962ec554d0b4458c86d8b97e9720e9a5&csf=1&web=1&e=4SlLvl).
-=======
-To run the fiction, you only need to [download the and run the "story.py" executable here](https://studentsloyola-my.sharepoint.com/:u:/r/personal/oeberendu_loyola_edu/Documents/Documents/GitHub/Angelic-Earthling-Interactive-Fiction/story.py?d=w962ec554d0b4458c86d8b97e9720e9a5&csf=1&web=1&e=4SlLvl).
->>>>>>> 3888b5c7b504c6ccf04ddc957bfe3224f4a8633f
 
 Alternatively, you can click on the green "code" button on the top right corner of the repository window to download the zip file and extract the items to run "story.py"
 
