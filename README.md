@@ -16,9 +16,9 @@ The interaction uses binary coordinates to locate what story and where in it we 
 
 ## Execution and Data
 
-To run the fiction, you only need to download and run the story.py executable on a machine with a Python interpreter.
+To run the fiction, download the repository and extract the zip file and run "story.py".
 
-Should the system not have a Python interpreter:
+Should the system not be able to run Python programs:
 
 * Shortcut Windows Key + R to open Windows Run
 * Open "powershell" on Windows Run
