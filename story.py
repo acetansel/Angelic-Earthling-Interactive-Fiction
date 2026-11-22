@@ -19,8 +19,8 @@ def rightPrinting(block):
 	print()
 	print(scroll[-1])
 	lineout()
-def yes_no():
-	answer = input()
+def yes_no(question):
+	answer = input(question)
 	yes = True
 	no = False
 	if len(answer) == 0:
@@ -32,18 +32,17 @@ def yes_no():
 	else:
 		return no
 def main(book):			
-	input("To answer affirmatively, return any word that begins with Y.\nTo answer negatively to any question, return any word that begins with N.\nReturning nothing counts as a yes; returning anything else counts as a no.\nReturn to start...")
+	input("Any word that begins with Y is a Yes; any word that begins with N is a No; no word is a yes; any other word is a no.\n\nThe printing will interlude between every line; return to proceed each time.\n")
 	lineout()
 	coordinates = ""
 	while True:
 		try:
 			paragraph = book[determining(coordinates)]
 			if paragraph == "..." or paragraph == "":
-				print("You have reached the end of this pathway whose story shall be continued.\nWe will now return from the beginning and you may close the program if you wish not to.")
+				print("You have reached the end of this pathway whose story shall be continued.\n\nWe will now return from the beginning and you may close the program if you wish not to.")
 				input("Return to continue...")
 				return None
 			rightPrinting(paragraph)
-			lineout()
 			if yes_no():
 				coordinates += "1"
 			else:
