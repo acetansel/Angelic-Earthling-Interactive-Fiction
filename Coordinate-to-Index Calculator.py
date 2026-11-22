@@ -34,7 +34,7 @@ def reversing(index):
 	return "Error 404"
 def main():
 	if input("Determining or Reversing? ").strip().lower()[0] == "d":
-		print(determining(input())+1)
+		print(determining(input()))
 	else:
 		print(reversing(input()))
 while True:
