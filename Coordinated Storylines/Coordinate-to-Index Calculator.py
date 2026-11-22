@@ -10,7 +10,7 @@ def determining(key):
 			shift += 2 ** (index - 1)
 	return minimum + shift
 def reversing(index):
-	sequence = []
+	sequence = [0]
 	a = 0
 	for i in range(1,200):
 		a += 2 ** i
@@ -21,17 +21,17 @@ def reversing(index):
 			coordLength = n + 1
 	possibilities = []
 	import random
-	while len(possibilities) != 2 ** coordLength:
+	while len(possibilities) < 2 ** coordLength:
 		guessCoordinate = ""
-		for writing in range(coordLength):
-			guessCoordinate += str(random.randint(0,2))
+		for i in range(coordLength):
+			guessCoordinate += str(random.randint(0,1))
 		if not guessCoordinate in possibilities:
-			possibilities.append(guessCoordinate)	
-	for possibility in possibilities:
-		guess = determining(possibility)
-		if guess == int(index):
-			return possibility
-	return "Couldn't retrieve the coordinate for",index,"the last guess being",guess
+			possibilities.append(guessCoordinate)
+	for example in possibilities:
+		guess = str(determining(example))
+		if guess == index:
+			return example
+	return "Error 404"
 def main():
 	if input("Determining or Reversing? ").strip().lower()[0] == "d":
 		print(determining(input()))
