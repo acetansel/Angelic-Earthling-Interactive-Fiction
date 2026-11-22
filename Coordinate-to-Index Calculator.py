@@ -32,8 +32,20 @@ def reversing(index):
 		if guess == index:
 			return example
 	return "Error 404"
+def yes_no(question):
+	answer = input(question)
+	yes = True
+	no = False
+	if len(answer) == 0:
+		return yes
+	elif answer[0] == "Y":
+		return yes
+	elif answer[0] == "N":
+		return no
+	else:
+		return no
 def main():
-	if input("Determining or Reversing? ").strip().lower()[0] == "d":
+	if yes_no("Determining? "):
 		print(determining(input()))
 	else:
 		print(reversing(input()))
