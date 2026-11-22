@@ -5,9 +5,9 @@ def determining(key):
 	for point in range (1, len(key)):
 		minimum += 2 ** point
 	shift = 1
-	for index in range(len(key)):
-		if key[index] == "1":
-			shift += 2 ** (len(key) - (index + 1))
+	for index in range(1,len(key)+1):
+		if key[-index] == "1":
+			shift += 2 ** (index - 1)
 	return minimum + shift
 def lineout():
 	print("~" * 60)
@@ -38,7 +38,7 @@ def main(book):
 		try:
 			paragraph = book[determining(coordinates)]
 			if paragraph == "...":
-				print("You have reached the end of this pathway whose story shall be continued.\nWe will now return from the beginning.\nYou may close the program if you wish not to.")
+				print("You have reached the end of this pathway whose story shall be continued.\nWe will now return from the beginning and you may close the program if you wish not to.")
 				input("Return to continue...")
 				return None
 			rightPrinting(paragraph)
