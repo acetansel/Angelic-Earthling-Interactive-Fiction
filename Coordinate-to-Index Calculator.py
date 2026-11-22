@@ -33,7 +33,7 @@ def reversing(index):
 			return example
 	return "Error 404"
 def yes_no(question):
-	answer = input(question)
+	answer = input(question).strip().upper()
 	yes = True
 	no = False
 	if len(answer) == 0:
