@@ -12,7 +12,7 @@ The interaction is not going to let you know when such consequential crossroads 
 
 The interaction uses binary coordinates to locate what story and where in it we are throughout the entire operation. Starting from the introductory passage, every 0 is an answered no and every 1 is an answered yes. Therefore, binary codes can be used to find specific storylines of interest like those major divergents or the canonical timeline.
 
-101101
+10110101
 
 ## Execution and Data
 
