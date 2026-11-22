@@ -9,39 +9,33 @@ def determining(key):
 		if key[-index] == "1":
 			shift += 2 ** (index - 1)
 	return minimum + shift
-def reversing(index, progressTo):
+def reversing(index):
 	sequence = []
 	a = 0
-	for i in range(1,progressTo):
+	for i in range(1,200):
 		a += 2 ** i
 		sequence.append(a)
-	for n in range(sequence-1):
-		if index > sequence[n] and not index > sequence[n+1]:
+	coordLength = 0
+	for n in range(len(sequence) - 1) :
+		if int(index) > sequence[n] and not int(index) > sequence[n+1]:
 			coordLength = n + 1
 	possibilities = []
 	import random
-	while True:
+	while len(possibilities) != 2 ** coordLength:
 		guessCoordinate = ""
 		for writing in range(coordLength):
-			guessCoordinate += str(random.randint(0,1))
+			guessCoordinate += str(random.randint(0,2))
 		if not guessCoordinate in possibilities:
-			possibilities.append(guessCoordinate)
-		if len(possibilities) == 2 ** coordLength:
-			break		
+			possibilities.append(guessCoordinate)	
 	for possibility in possibilities:
 		guess = determining(possibility)
-		if guess == index:
+		if guess == int(index):
 			return possibility
-	return None
+	return "Couldn't retrieve the coordinate for",index,"the last guess being",guess
 def main():
-	try:
-		if input("Determining or Reversing? ").strip().lower()[0] == "d":
-			print(determining(input()))
-		else:
-			print(reversing(input(), int(input())))
-	except IndexError:
-		print(reversing(input(), int(input())))
-	except TypeError:
-		print(reversing(input(), int(input())))
+	if input("Determining or Reversing? ").strip().lower()[0] == "d":
+		print(determining(input()))
+	else:
+		print(reversing(input()))
 while True:
 	main()
