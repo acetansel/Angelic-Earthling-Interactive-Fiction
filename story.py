@@ -15,6 +15,7 @@ def rightPrinting(block):
 	scroll = block.split("*n*")
 	for line in scroll[:-2]:
 		print(line)
+		input()
 	print()
 	print(scroll[-1])
 	lineout()
@@ -24,7 +25,7 @@ def yes_no():
 	no = False
 	if len(answer) == 0:
 		return yes
-	if answer[0] == "Y":
+	elif answer[0] == "Y":
 		return yes
 	elif answer[0] == "N":
 		return no
@@ -37,7 +38,7 @@ def main(book):
 	while True:
 		try:
 			paragraph = book[determining(coordinates)]
-			if paragraph == "...":
+			if paragraph == "..." or paragraph == "":
 				print("You have reached the end of this pathway whose story shall be continued.\nWe will now return from the beginning and you may close the program if you wish not to.")
 				input("Return to continue...")
 				return None
