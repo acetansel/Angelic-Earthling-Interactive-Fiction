@@ -9,16 +9,14 @@ def determining(key):
 		if key[-index] == "1":
 			shift += 2 ** (index - 1)
 	return minimum + shift
-def lineout():
-	print("~" * 60)
 def rightPrinting(block):
 	scroll = block.split("*n*")
+	print()
 	for line in scroll[:-2]:
-		print(line)
+		print(line, end="")
 		input()
 	print()
-	print(scroll[-1])
-	lineout()
+	print(scroll[-1], end="  ")
 def yes_no(question):
 	answer = input(question)
 	yes = True
@@ -33,12 +31,11 @@ def yes_no(question):
 		return no
 def main(book):			
 	input("Any word that begins with Y is a Yes; any word that begins with N is a No; no word is a yes; any other word is a no.\n\nThe printing will interlude between every line; return to proceed each time.\n")
-	lineout()
 	coordinates = ""
 	while True:
 		try:
 			paragraph = book[determining(coordinates)]
-			if paragraph == "..." or paragraph == "":
+			if paragraph == "":
 				print("You have reached the end of this pathway whose story shall be continued.\n\nWe will now return from the beginning and you may close the program if you wish not to.")
 				input("Return to continue...")
 				return None
