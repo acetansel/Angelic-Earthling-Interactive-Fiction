@@ -30,17 +30,18 @@ def yes_no(question):
 	else:
 		return no
 def main(book):			
-	input("Any word that begins with Y is a Yes; any word that begins with N is a No; no word is a yes; any other word is a no.\n\nThe printing will interlude between every line; return to proceed each time.\n")
+	input("Any word that begins with Y is a Yes; any word that begins with N is a No; no word is a yes; any other word is a no.")
+	input("The printing will interlude between every line; return to proceed each time.") 
 	coordinates = ""
 	while True:
 		try:
 			paragraph = book[determining(coordinates)]
 			if paragraph == "":
-				print("You have reached the end of this pathway whose story shall be continued.\n\nWe will now return from the beginning and you may close the program if you wish not to.")
+				print("You have reached the end of this pathway whose story shall be continued; we will now return from the beginning and you may close the program if you wish not to.")
 				input("Return to continue...")
 				return None
 			rightPrinting(paragraph)
-			if yes_no():
+			if yes_no(""):
 				coordinates += "1"
 			else:
 				coordinates += "0"
